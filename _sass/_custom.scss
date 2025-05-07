@@ -3,10 +3,12 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
-#home-banner-logo {
-    fill:#FF6C0C;
-}
+#logo {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto 1rem 0;
+  }
 
-div#branding {
-    margin: 100px 0px 100px 50px;
-}
+  #logo path {
+    fill: #FF6C0C;
+  }
