@@ -3,6 +3,10 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
-.caltech-logotype {
+#home-banner-logo {
     fill:#FF6C0C;
+}
+
+div#branding {
+    margin: 100px 0px 100px 50px;
 }
