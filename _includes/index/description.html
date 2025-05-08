@@ -1,5 +1,5 @@
-<div class="card mb-3">
-  <div class="card-body no-outline">
+<div class="card no-outline mb-3">
+  <div class="card-body">
     <!-- <h5 class="card-title">Description</h5> --> 
     <p class="card-text">{{ site.description }}</p>
     {%- assign about = site.data.config-nav | where: "stub","/about.html" | size -%}
