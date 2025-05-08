@@ -4,8 +4,8 @@
 # pulled in from "theme.yml" and "config-theme-colors.csv"
 ---
 @charset "utf-8";
-
-@use "../../_sass/_colors" as *;
+/*importing colors from _colors.scss*/
+@import "../../_sass/colors";
 
 /* set colors from colors.scss */
 $link-color: $burnt;
