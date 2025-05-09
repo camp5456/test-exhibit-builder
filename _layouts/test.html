@@ -1,29 +1,10 @@
 ---
 # test page so I know how to add pages to the site if needed
-layout: page
+layout: default
 ---
+<div class="container my-4 about-contents">
+{{ content }}
+</div>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <style>
-    body {
-      margin: 0;
-      display: flex;
-      height: 100vh;
-      justify-content: center;
-      align-items: center;
-      background: white;
-      color: pink;
-      font-size: 12px;
-      font-family: sans-serif;
-    }
-  </style>
-</head>
-<body>
-  Hello world
-</body>
-</html>
+{% if page.credits == true %}{% include cb/credits.html %}{% endif %}
+
