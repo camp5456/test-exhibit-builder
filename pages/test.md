@@ -28,8 +28,6 @@ This one has a list:
 - Item three
 {% endcapture %}
 
-## Welcome
-
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" heading="Feture Demo" text="a page to demo the various layout features" %}
 
 ___
@@ -143,7 +141,7 @@ ___
 
 ## PDF
 
-{% include feature/pdf.html objectid="/objects/demo_002" %}
+{% include feature/pdf.html objectid="/objects/demo_002.pdf" %}
 
 ___
 
