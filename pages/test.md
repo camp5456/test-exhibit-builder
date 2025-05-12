@@ -34,7 +34,7 @@ This page is to highlight various out of the box layout features.
 
 ##
 
-{{% include feature/accordion.html 
+{% include feature/accordion.html 
     title1="Section Header 1" text1=accordion_1
     title2="Section Header 2" text2=accordion_2 
     title3="Section Header 3" text3=accordion_3
