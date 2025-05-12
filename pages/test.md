@@ -30,7 +30,7 @@ This one has a list:
 
 ## Welcome
 
-This page is to highlight various out of the box layout features.
+{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" heading="Feture Demo" text="a page to demo the various layout features" %}
 
 ___
 
