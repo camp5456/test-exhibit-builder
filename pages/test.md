@@ -84,11 +84,24 @@ ___
     </div>
   </div>
 </div>
+ 
  ---
 
  ## Cloud
 
  {% include feature/cloud.html fields="subject;creator" min=2 %}
+
+ ---
+
+ ## Collapse
+
+ {% include feature/collapse.html button="Learn More" color="success" text="Such an interesting story!" %}
+ 
+ ---
+
+ ## Icon
+
+ {% include feature/icon.html icon="file-play" label="Audio file" %}
 
 ## Jumbotron - or featured image section banner 
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
