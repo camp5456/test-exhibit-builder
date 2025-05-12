@@ -68,8 +68,22 @@ ___
 
 ## Card
 
-{% include feature/card.html text="Some text" header="Example item" objectid="/objects/demo_004.jpg" title="This is a title" alt="this is alt text" %}
-
+<div class="container">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+    <div class="col">
+      {% include feature/card.html text="Card 1" header="Item 1" objectid="/objects/demo_001.jpg" title="Title 1" alt="Alt text 1" %}
+    </div>
+    <div class="col">
+      {% include feature/card.html text="Card 2" header="Item 2" objectid="/objects/demo_004.jpg" title="Title 2" alt="Alt text 2" %}
+    </div>
+    <div class="col">
+      {% include feature/card.html text="Card 3" header="Item 3" objectid="/objects/demo_001.jpg" title="Title 3" alt="Alt text 3" %}
+    </div>
+    <div class="col">
+      {% include feature/card.html text="Card 4" header="Item 4" objectid="/objects/demo_004.jpg" title="Title 4" alt="Alt text 4" %}
+    </div>
+  </div>
+</div>
  ---
 
 ## Jumbotron - or featured image section banner 
