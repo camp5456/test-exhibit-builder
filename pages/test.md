@@ -31,7 +31,8 @@ This one has a list:
 ## Welcome
 
 This page is to highlight various out of the box layout features.
-___
+
+---
 
 ## Accordion Magic
 
@@ -67,7 +68,7 @@ ___
 
 ## Card
 
-{% include feature/card.html text="Some text" header="Example item" objectid=demo_004 title="This is a title" alt="this is alt text" %}
+{% include feature/card.html text="Some text" header="Example item" objectid=/objects/demo_004.jpg title="This is a title" alt="this is alt text" %}
 
  ---
 
