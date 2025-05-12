@@ -32,7 +32,7 @@ This one has a list:
 
 This page is to highlight various out of the box layout features.
 
-##
+## Accordion Magic
 
 {% include feature/accordion.html 
     title1="Section Header 1" text1=accordion_1
@@ -40,4 +40,14 @@ This page is to highlight various out of the box layout features.
     title3="Section Header 3" text3=accordion_3
 %}
 
+## Bootstrap Alert Text
+
+{% include feature/alert.html text="This is an example of a warning" color="warning" align="center" %}
+{% include feature/alert.html text="This is an example of an information statement" color="info" align="center" %}
+
+## Audio - External OR Exhibit Object
+
+{% include feature/audio.html objectid="demo_003.mp3" %}
+
+## Jumbotron - or featured image section banner 
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
