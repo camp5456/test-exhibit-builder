@@ -32,6 +32,12 @@ This one has a list:
 
 This page is to highlight various out of the box layout features.
 
+___
+
+# Nav-menu - Anchors to lower on the page.
+
+{% include feature/nav-menu.html sections="Accordion Magic;Bootstrap Alert Text;" %}
+
 ---
 
 ## Accordion Magic
@@ -87,27 +93,27 @@ ___
  
 ___
 
- ## Cloud
+## Cloud
 
  {% include feature/cloud.html fields="subject;creator" min=2 %}
 
 ___
 
- ## Collapse
+## Collapse
 
  {% include feature/collapse.html button="Learn More" color="success" text="Such an interesting story!" %}
  
 ___
 
- ## Icon
+## Icon
 
  {% include feature/icon.html icon="file-play" label="Audio file" %}
 
  ___
 
- ## Image
+## Image
 
- {% include feature/image.html objectid="/objeccts/demo_001" %}
+ {% include feature/image.html objectid="/objects/demo_001" %}
 
  ___
 
@@ -119,3 +125,7 @@ ___
 ## Modal
 
 {% include feature/modal.html button="More Info" color="info" title="Information" text="Example text" %}
+
+___
+
+## Nav-menu - Anchors to lower on the page.
