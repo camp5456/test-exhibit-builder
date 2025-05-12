@@ -34,13 +34,14 @@ This page is to highlight various out of the box layout features.
 
 ___
 
-# Nav-menu - Anchors to lower on the page.
+# Sub Menu
 
-{% include feature/nav-menu.html sections="Accordion Magic;Bootstrap Alert Text;" %}
+{% include feature/nav-menu.html sections="Accordion;Alerts;Audio;Blockquote;Button;Card;Cloud;Collapse;Icon;Image;Jumbotron;Modal;PDF" %}
 
 ---
 
-## Accordion Magic
+
+## Accordion
 
 {% include feature/accordion.html 
     title1="Section Header 1" text1=accordion_1
@@ -49,28 +50,33 @@ ___
 %}
 ___
 
-## Bootstrap Alert Text
+
+## Bootstrap
 
 {% include feature/alert.html text="This is an example of a warning" color="warning" align="center" %}
 {% include feature/alert.html text="This is an example of an information statement" color="info" align="center" %}
 
 ___
 
-## Audio - External OR Exhibit Object
+
+## Audio 
 
 {% include feature/audio.html objectid="/objects/demo_003.mp3" %}
 ___
 
-## Blockquote - includes: text, speaker, source, link
+
+## Blockquote 
 
 {% include feature/blockquote.html text="Quod te non mutat, te docet." speaker="Marcus Aurelius" source="Locksley Hall" %}
 
 ___
 
+
 ## Button 
 {% include feature/button.html text="Example Button" link="https://example.com" color="success" %}
 
 ___
+
 
 ## Card
 
@@ -93,11 +99,13 @@ ___
  
 ___
 
+
 ## Cloud
 
  {% include feature/cloud.html fields="subject;creator" min=2 %}
 
 ___
+
 
 ## Collapse
 
@@ -105,11 +113,13 @@ ___
  
 ___
 
+
 ## Icon
 
  {% include feature/icon.html icon="file-play" label="Audio file" %}
 
  ___
+
 
 ## Image
 
@@ -117,10 +127,12 @@ ___
 
  ___
 
-## Jumbotron - or featured image section banner 
+
+## Jumbotron 
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
 
 ___
+
 
 ## Modal
 
@@ -128,4 +140,6 @@ ___
 
 ___
 
-## Nav-menu - Anchors to lower on the page.
+## PDF
+
+{% include feature/pdf.html objectid="demo_002" %}
