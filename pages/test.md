@@ -124,7 +124,7 @@ ___
 
 ## Image
 
- {% include feature/image.html objectid="/objects/demo_001" %}
+ {% include feature/image.html objectid="/objects/demo_001.jpg" %}
 
  ___
 
@@ -150,3 +150,9 @@ ___
 ## Timeline
 
 {% include feature/timelinejs.html %}
+
+___
+
+## Video
+
+{% include feature/video.html objectid="https://youtu.be/dbKNr3wuiuQ" %}
