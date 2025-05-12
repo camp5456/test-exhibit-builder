@@ -68,7 +68,7 @@ ___
 
 ## Card
 
-{% include feature/card.html text="Some text" header="Example item" objectid=/objects/demo_004.jpg title="This is a title" alt="this is alt text" %}
+{% include feature/card.html text="Some text" header="Example item" objectid="/objects/demo_004.jpg" title="This is a title" alt="this is alt text" %}
 
  ---
 
