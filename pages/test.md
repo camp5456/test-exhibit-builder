@@ -31,6 +31,7 @@ This one has a list:
 ## Welcome
 
 This page is to highlight various out of the box layout features.
+___
 
 ## Accordion Magic
 
@@ -39,22 +40,37 @@ This page is to highlight various out of the box layout features.
     title2="Section Header 2" text2=accordion_2 
     title3="Section Header 3" text3=accordion_3
 %}
+___
 
 ## Bootstrap Alert Text
 
 {% include feature/alert.html text="This is an example of a warning" color="warning" align="center" %}
 {% include feature/alert.html text="This is an example of an information statement" color="info" align="center" %}
 
+___
+
 ## Audio - External OR Exhibit Object
 
-{% include feature/audio.html objectid="objects/demo_003" %}
+{% include feature/audio.html objectid="assets/objects/demo_003" %}
+
+___
 
 ## Blockquote - includes: text, speaker, source, link
 
 {% include feature/blockquote.html text="Quod te non mutat, te docet." speaker="Marcus Aurelius" source="Locksley Hall" %}
 
+___
+
 ## Button 
 {% include feature/button.html text="Example Button" link="https://example.com" color="success" %}
+
+___
+
+## Card
+
+{% include feature/card.html text="Some text" header="Example item" objectid="assets/objects/demo_004" title="This is a title" alt="this is alt text" %}
+
+ ---
 
 ## Jumbotron - or featured image section banner 
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
