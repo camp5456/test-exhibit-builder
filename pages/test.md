@@ -51,8 +51,7 @@ ___
 
 ## Audio - External OR Exhibit Object
 
-{% include feature/audio.html objectid=audiosampleid  %}
-
+{% include feature/audio.html objectid="/objects/demo_003.mp3" %}
 ___
 
 ## Blockquote - includes: text, speaker, source, link
