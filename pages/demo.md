@@ -28,7 +28,7 @@ This one has a list:
 - Item three
 {% endcapture %}
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" heading="Feture Demo" text="a page to demo the various layout features" %}
+{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" heading="Feature Demo" text="a page to demo the various layout features" %}
 
 ___
 
