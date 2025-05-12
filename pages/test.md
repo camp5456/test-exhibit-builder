@@ -47,7 +47,12 @@ This page is to highlight various out of the box layout features.
 
 ## Audio - External OR Exhibit Object
 
-{% include feature/audio.html objectid="demo_003.mp3" %}
+{% include feature/audio.html objectid="demo_003" %}
+
+## Blockquote - includes: text, speaker, source, link
+
+{% include feature/blockquote.html text="Quod te non mutat, te docet." speaker="Marcus Aurelius" source="Locksley Hall" %}
+
 
 ## Jumbotron - or featured image section banner 
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
