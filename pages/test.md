@@ -51,7 +51,7 @@ ___
 
 ## Audio - External OR Exhibit Object
 
-{% include feature/audio.html objectid="demo_003" title="test audio"> %}
+{% include feature/audio.html objectid="demo_003" title="test audio" %}
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 ## Card
 
-{% include feature/card.html text="Some text" header="Example item" objectid="/objects/demo_004" title="This is a title" alt="this is alt text" %}
+{% include feature/card.html text="Some text" header="Example item" objectid="demo_004" title="This is a title" alt="this is alt text" %}
 
  ---
 
