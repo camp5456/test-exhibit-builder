@@ -51,7 +51,7 @@ ___
 
 ## Audio - External OR Exhibit Object
 
-{% include feature/audio.html objectid="/objects/demo_003" %}
+{% include feature/audio.html objectid="https://camp5456.github.io/test-exhibit-builder/objects/demo_003.mp3" title="/objects/demo_003"></audio>" %}
 
 ___
 
