@@ -51,7 +51,7 @@ ___
 
 ## Audio - External OR Exhibit Object
 
-{% include feature/audio.html objectid="demo_003" title="test audio"></audio> %}
+{% include feature/audio.html objectid="demo_003" title="test audio"> %}
 
 ___
 
