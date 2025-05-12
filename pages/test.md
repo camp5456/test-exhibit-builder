@@ -51,7 +51,7 @@ ___
 ___
 
 
-## Bootstrap
+## Alerts
 
 {% include feature/alert.html text="This is an example of a warning" color="warning" align="center" %}
 {% include feature/alert.html text="This is an example of an information statement" color="info" align="center" %}
@@ -62,12 +62,13 @@ ___
 ## Audio 
 
 {% include feature/audio.html objectid="/objects/demo_003.mp3" %}
+
 ___
 
 
 ## Blockquote 
 
-{% include feature/blockquote.html text="Quod te non mutat, te docet." speaker="Marcus Aurelius" source="Locksley Hall" %}
+{% include feature/blockquote.html text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. " speaker="Marcus Aurelius" source="Latin Placeholder" %}
 
 ___
 
@@ -142,4 +143,10 @@ ___
 
 ## PDF
 
-{% include feature/pdf.html objectid="demo_002" %}
+{% include feature/pdf.html objectid="/objects/demo_002" %}
+
+___
+
+## Timeline
+
+{% include feature/timelinejs.html %}
