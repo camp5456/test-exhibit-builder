@@ -86,5 +86,9 @@ ___
 </div>
  ---
 
+ ## Cloud
+
+ {% include feature/cloud.html fields="subject;creator" min=2 %}
+
 ## Jumbotron - or featured image section banner 
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
