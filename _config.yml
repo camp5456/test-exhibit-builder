@@ -40,10 +40,10 @@ metadata: demo-data
 # Site/Organization Branding 
 #   Uncomment these and enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
 #
-organization-name: "Caltech Archives and Special Collections"
-organization-link: https://library.caltech.edu/archives/home
-organization-logo-banner: /assets/img/logo-caltech.svg
-organization-logo-nav: /assets/img/logo-caltech.svg
+# organization-name: "Caltech Archives and Special Collections"
+# organization-link: https://library.caltech.edu/archives/home
+# organization-logo-banner: /assets/img/logo-caltech.svg
+# organization-logo-nav: /assets/img/logo-caltech.svg
 
 ##########
 # ROBOTS EXCLUDE
