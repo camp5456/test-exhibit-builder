@@ -1,5 +1,5 @@
 --
-title: Further Reading
+title: Resources
 layout: resources
 permalink: /resources.html
 # include CollectionBuilder info at bottom
