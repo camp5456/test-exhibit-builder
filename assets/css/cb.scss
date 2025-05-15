@@ -37,3 +37,15 @@ $theme-colors: map-merge(
 {% endif %}
 
 @import "base", "pages", "custom";
+
+
+// Branding wrapper layout styles
+.branding-wrapper {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.branding-wrapper svg {
+  max-width: 100%;
+  height: auto;
+}
