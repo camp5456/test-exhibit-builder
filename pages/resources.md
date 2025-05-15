@@ -10,7 +10,7 @@ permalink: /resources.html
 
 <div class="container py-5">
     <h1 class="mb-4">Further Reading</h1>
-    <ul class="list-unstyled">
+    <ul>
       <li><strong>Garland E. Allen</strong>, <em>Thomas Hunt Morgan: The Man and His Science</em> (1978).</li>
       <li><strong>Phillip Balch</strong>, “Allan Christopher Balch: Pioneer in the Electric Industry,” <em>Balchipedia: The Encyclopedia of Balch History</em>, 2017.</li>
       <li><strong>Manton M. Barnes</strong>, “Hail CIT” and “In This Issue,” <em>Engineering and Science</em>, November 1948.</li>
