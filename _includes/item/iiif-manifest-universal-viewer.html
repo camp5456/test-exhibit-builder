@@ -2,13 +2,12 @@
 <script type="text/javascript">
   (function(){
     window.addEventListener('DOMContentLoaded', function() {
-      const manifest = item.identifier;
-      if (manifest && typeof UV === 'undefined') {
+      if (typeof UV === 'undefined') {
         var s = document.createElement('script');
         s.src = 'https://unpkg.com/uv@3.0.33/lib/uv.min.js';
         s.onload = function() {
           UV.init("uv", {
-            manifest: manifest,
+            manifest: "{{ page.object_location }}",
             configUri: "https://unpkg.com/uv@3.0.33/lib/uv-config.json"
           });
         };
