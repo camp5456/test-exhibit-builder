@@ -1,0 +1,32 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://camp5456.github.io/test-exhibit-builder/objects/iiif/gallery-manifest.json",
+  "label": "Gallery of Caltech Student Life",
+  "sequences": [{
+    "@type": "sc:Sequence",
+    "label": "Gallery sequence",
+    "canvases": [
+      {
+        "@type": "sc:Canvas",
+        "@id": "https://camp5456.github.io/test-exhibit-builder/objects/iiif/canvas/1",
+        "label": "Image 1: students_studying_library.jpg",
+        "height": 1000,
+        "width": 1000,
+        "images": [{
+          "@type": "oa:Annotation",
+          "motivation": "sc:painting",
+          "@id": "https://camp5456.github.io/test-exhibit-builder/objects/iiif/canvas/1/annotation",
+          "resource": {
+            "@id": "https://camp5456.github.io/test-exhibit-builder/objects/iiif/students_studying_library.jpg",
+            "@type": "dctypes:Image",
+            "format": "image/jpeg",
+            "height": 1000,
+            "width": 1000
+          },
+          "on": "https://camp5456.github.io/test-exhibit-builder/objects/iiif/canvas/1"
+        }]
+      }
+    ]
+  }]
+}
