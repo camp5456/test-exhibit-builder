@@ -7,7 +7,7 @@
         s.src = 'https://unpkg.com/uv@3.0.33/lib/uv.min.js';
         s.onload = function() {
           UV.init("uv", {
-            manifest: "{{ page.object_location }}",
+            manifest: item.object_location,
             configUri: "https://unpkg.com/uv@3.0.33/lib/uv-config.json"
           });
         };
