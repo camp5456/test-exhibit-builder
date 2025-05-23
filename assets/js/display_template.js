@@ -1,5 +1,5 @@
-window.addEventListener('DOMContentLoaded', function () {
-  if (typeof item !== 'undefined') {
+function waitForItemAndLoad() {
+  if (typeof item !== 'undefined' && item.display_template) {
     switch (item.display_template) {
       case "iiif":
         loadTemplate("iiif");
@@ -7,5 +7,9 @@ window.addEventListener('DOMContentLoaded', function () {
       default:
         loadTemplate("default");
     }
+  } else {
+    setTimeout(waitForItemAndLoad, 100); // Check again in 100ms
   }
-});
+}
+
+window.addEventListener('DOMContentLoaded', waitForItemAndLoad);
