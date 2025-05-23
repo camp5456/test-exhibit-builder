@@ -64,4 +64,4 @@ exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md,
 sass:
   style: compressed
 
-custom-foot: /_includes/js/item-js.html
+custom-foot: js/item-js.html
